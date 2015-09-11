@@ -1,0 +1,9 @@
+---
+layout: meetup
+title:  "Classification: Regularized logistic regression, Trees and random forests"
+date:   2015-04-09
+type: meetup
+meetup: http://www.meetup.com/Ann-Arbor-R-User-Group/events/220342745/
+---
+
+Devin Riley demonstrated binary classification using regularized logistic regression ([slides](https://cdn.rawgit.com/AnnArborRUserGroup/Presentations/master/2015-04/LogisticRegressionAndRegularization/index.html)) and Ellis Valentiner gave an introduction to decision trees and random forests ([slides](https://cdn.rawgit.com/AnnArborRUserGroup/Presentations/master/2015-04/Trees_forests/Decision_trees_to_random_forests.html)).

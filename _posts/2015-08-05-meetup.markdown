@@ -1,0 +1,9 @@
+---
+layout: meetup
+title:  "RStan: Statistical Modeling Made Easy with Bob Carpenter"
+date:   2015-08-05
+type: meetup
+meetup: http://www.meetup.com/Ann-Arbor-R-User-Group/events/223802318/
+---
+
+Special guest Dr. Bob Carpenter introduced Stan, a new language for expressing statistical models with support for full Bayesian inference ([PDF slides](https://github.com/AnnArborRUserGroup/Presentations/blob/master/2015-08/rstan-ann-arbor-2015.pdf)).
