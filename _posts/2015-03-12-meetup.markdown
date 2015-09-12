@@ -1,0 +1,9 @@
+---
+layout: meetup
+title:  "Data Exploration"
+date:   2015-03-12
+type: meetup
+meetup: http://www.meetup.com/Ann-Arbor-R-User-Group/events/220438934/
+---
+
+Kun Deng gave an introduction to the tidyr and dplyr packages ([slides](https://cdn.rawgit.com/AnnArborRUserGroup/Presentations/master/2015-03/tidyr-dplyr/tidyr_dplyr_intro.html)), Haad Khan showed us how to perform exploratory data analysis and visualization using ggplot2 ([slides](https://cdn.rawgit.com/AnnArborRUserGroup/Presentations/master/2015-03/ggplot2/InfoViz with R.html)), and Blake Nicholson walked us through the basics of principal component analysis and exploratory factor analysis ([slides](https://cdn.rawgit.com/AnnArborRUserGroup/Presentations/master/2015-03/PCA-EFA/Intro-to-PCA-EFA.html)).

@@ -1,0 +1,9 @@
+---
+layout: meetup
+title:  "R Markdown and Support Vector Machines"
+date:   2015-05-07
+type: meetup
+meetup: http://www.meetup.com/Ann-Arbor-R-User-Group/events/221665924/
+---
+
+Marian Schmidt gave an introduction to using R Markdown ([slides](https://cdn.rawgit.com/AnnArborRUserGroup/Presentations/master/2015-05/Rmd_Marian/rmd_pres_MALS.html)) and Michelle Berry gave an overview of support vector machines ([slides](https://cdn.rawgit.com/AnnArborRUserGroup/Presentations/master/2015-05/svm/svm.html)).

@@ -1,0 +1,9 @@
+---
+layout: meetup
+title:  "Interactive Web Applications in R with Shiny"
+date:   2015-06-04
+type: meetup
+meetup: http://www.meetup.com/Ann-Arbor-R-User-Group/events/222306951/
+---
+
+Clayton Yochum walked us through the steps to create, iterate on, and host a simple web application ([slides](https://cdn.rawgit.com/AnnArborRUserGroup/Presentations/master/2015-06/Intro-to-Shiny/outline.html)).

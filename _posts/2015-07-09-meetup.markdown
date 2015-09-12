@@ -1,0 +1,9 @@
+---
+layout: meetup
+title:  "magrittr, Package Development and Association Rule Learning"
+date:   2015-07-09
+type: meetup
+meetup: http://www.meetup.com/Ann-Arbor-R-User-Group/events/223162192/
+---
+
+Rob Weyant showed us the magrittr package ([slides](https://cdn.rawgit.com/AnnArborRUserGroup/Presentations/master/2015-07/magrittr/magrittr.html)), Jeff Shane demonstrated package development ([slides](https://cdn.rawgit.com/AnnArborRUserGroup/Presentations/master/2015-07/package-creation/package-creation.html)), and Brandon Stange gave a talk on association rule learning ([slides](https://cdn.rawgit.com/AnnArborRUserGroup/Presentations/master/2015-07/arules/User_AA_Arules.html)).
