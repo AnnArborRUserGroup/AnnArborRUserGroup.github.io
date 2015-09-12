@@ -5,4 +5,4 @@ date:   2015-09-10
 type: meetup
 ---
 
-Mochan Shrestha presented on the caret package, a set of functions that attempt to streamline the process for creating predictive models ([slides]()). Kraig Stevenson gave an introduction to text mining with R and its application to song lyrics ([slides]()).
+Mochan Shrestha presented on the caret package, a set of functions that attempt to streamline the process for creating predictive models ([slides](https://github.com/AnnArborRUserGroup/Presentations/blob/master/2015-09/caretpres/caretpres.pdf)). Kraig Stevenson gave an introduction to text mining with R and its application to song lyrics ([slides](https://cdn.rawgit.com/AnnArborRUserGroup/Presentations/master/2015-09/lyricsNLP/lyricsNLP.html)).
