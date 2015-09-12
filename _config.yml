@@ -1,7 +1,7 @@
 # Site settings
 title: Ann Arbor R User Group
 email: AnnArborRUserGroup@gmail.com
-description:  The Ann Arbor R User Group is an open-source, community dedicated to sharing knowledge and experience in solving data analysis and statistical problems using R.
+description:  The Ann Arbor R User Group is a local community dedicated to sharing knowledge and experience in solving data analysis and statistical problems using R.
 sponsor: Supported by Barracuda Networks and Revolution Analytics.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://annarborrusergroup.github.io" # the base hostname & protocol for your site
