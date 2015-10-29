@@ -1,0 +1,8 @@
+---
+layout: meetup
+title:  "Propensity Score Matching and ggvis"
+date:   2015-10-15
+type: meetup
+---
+
+Alex Lishinski presented on Propensity Score Matching in R ([slides](https://cdn.rawgit.com/AnnArborRUserGroup/Presentations/master/2015-10/PSAPresentation/AARUG_Presentation.html)). Dave Childers talked about how to use ggvis to create interactive graphics ([slides](https://cdn.rawgit.com/AnnArborRUserGroup/Presentations/master/2015-10/childers_ggvis/ggvis.html)). 
