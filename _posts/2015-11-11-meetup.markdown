@@ -1,0 +1,12 @@
+---
+layout: meetup
+title:  "Grammar of Graphics, rJava & Rcpp"
+date:   2015-11-11
+type: meetup
+---
+
+At our November meetup Brian Perron gave a talk about the Grammar of Graphics and how that relates to the ggplot2 package, followed by Dan Pressel talking about the rJava and Rcpp packages.
+
+Brian Perron is an Associate Professor at the UM-School of Social Work. He self-identifies as a geek and loves data. His talk was a crash course on the underlying conceptual framework of the grammar of graphics. Understanding the grammar is essential to creating effective data visualizations with ggplot, without spending countless hours pouring through StackOverflow posts ([slides](https://cdn.rawgit.com/AnnArborRUserGroup/Presentations/master/2015-11/GoG/Presentation.pdf)).
+
+Daniel Pressel is Chief Science Officer at Digital Roots, where he works on problems in Natural Language Processing and Machine Learning. Occasionally when using R, we want to access to existing software written in other programming languages. In this talk Dan described how to interface with two very popular languages -- C++ and Java -- from within R. He demonstrated how to build a package with Rcpp using native code to improve execution performance and how to use rJava, to build something powerful with very little development effort ([slides](https://cdn.rawgit.com/AnnArborRUserGroup/Presentations/master/2015-11/rjava-rcpp/presentation.html)).
