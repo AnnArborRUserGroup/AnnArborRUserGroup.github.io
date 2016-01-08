@@ -162,10 +162,17 @@
  * Page content
  */
 .page-content {
+    float: center;
     padding: $spacing-unit 0;
+    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
+    max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
+    margin-right: auto;
+    margin-left: auto;
+    pointer-events: all;
 }
 
 .page-heading {
+    padding-top: 30px;
     font-size: 30px;
 }
 

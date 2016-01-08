@@ -22,10 +22,10 @@ $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
 // Width of the content area
-$content-width:    800px;
+$content-width:    960px;
 
 $on-palm:          600px;
-$on-laptop:        800px;
+$on-laptop:        960px;
 
 
 
@@ -59,17 +59,19 @@ $on-laptop:        800px;
  */
 
 .sidebar {
-  text-align: center;
+  //float: left;
+  //text-align: center;
   padding: 1rem 1rem;
   background-color: #fdfdfd;
+  max-width: 18rem;
 }
 @media (min-width: 48em) {
   .sidebar {
     position: relative;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    width: 18rem;
+    // top: 0;
+    // left: 0;
+    // bottom: 0;
+    
     text-align: left;
   }
 }
@@ -108,7 +110,7 @@ a.sidebar-nav-item:focus {
 
 @media (min-width: 48em) {
   .sidebar-sticky {
-    position: absolute;
+    position: relative;
     right:  1rem;
     top:    1rem;
     left:   1rem;
