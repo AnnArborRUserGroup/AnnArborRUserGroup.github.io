@@ -1,0 +1,8 @@
+---
+layout: meetup
+title:  "End of Year Party"
+date:   2015-12-16
+type: meetup
+---
+
+Our December meetup was an end of year celebration — there were no presentations this month, just a chance to hang out and have fun.
