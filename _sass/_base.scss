@@ -187,6 +187,9 @@ pre {
     // @extend %clearfix;
     pointer-events: inherit;
     z-index: 1000;
+    
+    clear: both;
+    display: block;
 
     @include media-query($on-laptop) {
         max-width: 18rem;
