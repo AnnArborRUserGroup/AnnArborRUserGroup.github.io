@@ -1,0 +1,20 @@
+---
+layout: meetup
+title:  "Lightning Talks and Creating Powerful Yet User-Friendly Analytics Applications with RShiny"
+date:   2016-01-14
+type: meetup
+---
+
+At our January meetup we had several short "lightning" talks followed by a presentation from Jeremy Albright.
+
+The lightning talks were:
+
+* "spotifyr: a wrapper for Spotify's API in R" ([slides](https://cdn.rawgit.com/AnnArborRUserGroup/Presentations/master/2016-01/rob-lightning-talk/lightning-spotifyr-project.html)) - Rob Weyant 
+
+* "Shiny WiFi Dashboard: Displaying information about the current WiFi Status" ([slides](https://cdn.rawgit.com/AnnArborRUserGroup/Presentations/master/2016-01/ellis-lightning-talk/lightning-airport-project.html)) - Ellis Valentiner
+
+* "A Modern R Styleguide: Working towards a sensible, current style for R code" ([slides](https://cdn.rawgit.com/AnnArborRUserGroup/Presentations/master/2016-01/clayton-lightning-talk/lightning-styleguide-project.html)) - Clayton Yochum
+
+Jeremy Albright is the Founder and CEO of [Methods](http://www.methodsconsultants.com), an Ypsilanti-based data science and statistical consulting firm. He's been using R since 2001 and enjoying it since 2005. He uses R to develop applications to perform predictive modeling, text analytics, and data visualizations. In his misguided youth he also earned a doctorate in Political Science and still occasionally dabbles in academic research, both in the social sciences and biostatistics, and he teaches statistics in the Psychology department at EMU.
+
+RShiny makes it easy to develop applications with highly intuitive graphical user interfaces that also run highly sophisticated analytics in the background. Jeremy's presentation discussed two real-world applications: one app that creates and analyzes multiply imputed data sets, and another that uses a neural network to predict stock market performance on the basis of daily data feeds. These examples show how it is possible to provide clients with true business intelligence options beyond the simplistic dashboards that dominate the market. The presentation will also discuss making RShiny applications available via the cloud ([.pptx slides](https://github.com/AnnArborRUserGroup/Presentations/raw/master/2016-01/jeremy-talk/RShiny%20Public%20Version%201-11-16-2.pptx)).
