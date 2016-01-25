@@ -24,51 +24,68 @@
 }
 
 .site-nav {
-    float: right;
-    line-height: 56px;
-
-    .menu-icon {
+    //float: center;
+    //line-height: 56px;
+    @media (min-width: $content-width){
+        clear: both;
         display: none;
     }
 
-    .page-link {
-        color: $text-color;
-        line-height: $base-line-height;
+    @media (max-width: $content-width){
+        position: absolute;
+        top: 9px;
+        right: 30px;
+        background-color: #fdfdfd; //$background-color;
+        border: 1px solid $grey-color-light;
+        border-radius: 5px;
+        text-align: right;
 
-        // Gaps between nav items, but not on the first one
-        &:not(:first-child) {
-            margin-left: 20px;
-        }
-    }
+        .page-link {
+            color: $text-color;
+            line-height: $base-line-height;
 
-    .menu-icon {
-            display: block;
-            float: right;
-            width: 36px;
-            height: 26px;
-            line-height: 0;
-            padding-top: 20px;
-            text-align: center;
-
-            > svg {
-                width: 18px;
-                height: 15px;
-
-                path {
-                    fill: $grey-color-dark;
-                }
+            // Gaps between nav items, but not on the first one
+            &:not(:first-child) {
+                margin-left: 20px;
             }
         }
 
-        .trigger {
-            clear: both;
-            display: none;
-        }
+        .menu-icon {
+                display: block;
+                float: right;
+                width: 36px;
+                height: 26px;
+                line-height: 0;
+                padding-top: 20px;
+                text-align: center;
 
-        &:hover .trigger {
-            display: table;
-            padding-bottom: 10px;
-        }
+                > svg {
+                    width: 18px;
+                    height: 15px;
+
+                    path {
+                        fill: $grey-color-dark;
+                    }
+                }
+            }
+
+            .trigger {
+                clear: both;
+                display: none;
+                //font-size: $base-font-size * 1.25;
+                padding-left: $spacing-unit;
+                padding-right: $spacing-unit / 2;
+                
+                font-size: 28px;
+                line-height: 56px;
+                letter-spacing: -1px;
+            }
+
+            &:hover .trigger {
+                display: table;
+                padding-bottom: 10px;
+            }
+    }
 
     // @include media-query($on-palm) {
     //     position: absolute;
@@ -115,6 +132,58 @@
     // }
 }
 
+
+/**
+ * Wrapper
+ */
+.wrapper {
+    float: right;
+    position: relative;
+    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
+    max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
+    margin-right: auto;
+    margin-left: auto;
+    // padding-right: $spacing-unit;
+    // padding-left: $spacing-unit;
+    padding-left: 18em;//22em;
+    @extend %clearfix;
+
+    @include media-query($on-laptop) {
+        // max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} + 18rem));
+        // max-width:         calc(#{$content-width} - (#{$spacing-unit} + 18rem));
+        padding-right: $spacing-unit / 2;
+        padding-left: $spacing-unit / 2;
+    }
+}
+
+
+.wrapper-sidebar {
+    //float: left;
+    position: fixed;
+    //max-width: 18rem;
+    // margin-right: auto;
+    // margin-left: auto;
+    padding-right: $spacing-unit;
+   // padding-left: $spacing-unit;
+    //padding-left: 22em;
+    // @extend %clearfix;
+    pointer-events: inherit;
+    z-index: 1000;
+    
+    clear: both;
+    display: block;
+
+    @include media-query($on-laptop) {
+        //max-width: 18rem;
+        // padding-right: $spacing-unit / 2;
+        // padding-left: $spacing-unit / 2;
+    }
+
+    @media (max-width: $content-width){
+        clear: both;
+        display: none;
+    }
+}
 
 
 /**

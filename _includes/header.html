@@ -2,7 +2,7 @@
 
   <div class="wrapper">
 
-    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+    <!-- <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a> -->
 
     <nav class="site-nav">
       <a href="#" class="menu-icon">
@@ -14,15 +14,36 @@
       </a>
 
       <div class="trigger">
-<<<<<<< HEAD
-=======
-        <a class="page-link" href="/">{{ "Main Page" }}</a>
->>>>>>> b52fc6b16d082a504e6b50199ed23168ee8c6ca0
+        <!-- <a class="page-link" href="/">{{ "News" }}</a>
         {% for page in site.pages %}
           {% if page.title %}
-          <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+            <p><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></p>
           {% endif %}
-        {% endfor %}
+        {% endfor %} -->
+        <navh><strong>AARUG</strong></navh>
+      {% assign pages_list = site.pages %}
+      {% for node in pages_list %}
+        {% if node.title != null %}
+          {% if node.layout == "page" %}
+            <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+
+      <a class="sidebar-nav-item" href="http://www.meetup.com/Ann-Arbor-R-User-Group/">Meetup</a>
+      <a class="sidebar-nav-item" href="https://github.com/AnnArborRUserGroup">GitHub</a>
+
+      <navh><strong>R Links</strong></navh>
+      <a class="sidebar-nav-item" href="https://www.r-project.org">R Project</a>
+      <a class="sidebar-nav-item" href="https://cran.r-project.org">CRAN</a>
+      <a class="sidebar-nav-item" href="https://www.rstudio.com">RStudio</a>
+      <a class="sidebar-nav-item" href="http://www.revolutionanalytics.com">Revolution Analytics</a>
+
+<!--       <navh><strong>Our Friends</strong></navh>
+      <a class="sidebar-nav-item" href="http://www.meetup.com/Ann-Arbor-Detroit-NLPers-A2D-NLP/">Ann Arbor/Detroit NLPers</a>
+      <a class="sidebar-nav-item" href="http://www.meetup.com/Machine-Learning-Data-Science-and-Industry/">Machine Learning: Data Science and Industry</a>
+      <a class="sidebar-nav-item" href="http://www.meetup.com/Predictive-Analytics-S-E-Michigan/">Predictive Analystics - S.E. Michigan</a>
+      <a class="sidebar-nav-item" href="http://www.meetup.com/Lansing-Area-R-Users-Group/">Lansing Area R Users Group</a> -->
       </div>
     </nav>
 

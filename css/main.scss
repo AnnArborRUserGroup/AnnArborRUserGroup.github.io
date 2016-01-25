@@ -22,10 +22,10 @@ $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
 // Width of the content area
-$content-width:    960px;
+$content-width:    800px;
 
 $on-palm:          600px;
-$on-laptop:        960px;
+$on-laptop:        800px;
 
 
 
@@ -63,9 +63,9 @@ $on-laptop:        960px;
   //text-align: center;
   padding: 1rem 1rem;
   background-color: #fdfdfd;
-  max-width: 18rem;
+  max-width: 14rem;
 }
-@media (min-width: 48em) {
+@media (min-width: 32em) {
   .sidebar {
     position: relative;
     // top: 0;
