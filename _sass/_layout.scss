@@ -145,7 +145,7 @@
     margin-left: auto;
     // padding-right: $spacing-unit;
     // padding-left: $spacing-unit;
-    padding-left: 18em;//22em;
+    padding-left: 20em;//22em;
     @extend %clearfix;
 
     @include media-query($on-laptop) {
