@@ -6,6 +6,14 @@ The site is built using [Jekyll](http://jekyllrb.com/) and hosted using [GitHub 
 
 Jekyll is a static site generator. It takes raw text files (e.g. Markdown), applies a template elements (e.g. custom CSS), and returns a ready-to-publish website. Getting started with Jekyll is easy, see the [quick-start guide](http://jekyllrb.com/docs/quickstart/).
 
+## Directory structure
+
+The basic directory structure is described in the [Jekyll documentation](http://jekyllrb.com/docs/structure/).
+
+Markdown files (either .md or .markdown) in the top level directory are added to the sidebar automatically.
+
+Since this site isn't a blog per se, the `_posts` directory contains the Markdown files for the "News" on the index page.
+
 # Contributing
 
 We welcome contributions from anyone. Since the code is on GitHub (hint: you're already here) you've got access to everything you need to make changes.
@@ -29,4 +37,4 @@ Try to follow these pro tips from the [GitHub Pages guide](https://guides.github
 * **Be clear** about what problem is occurring and how someone can recreate that problem or why your feature will help. Then be equally as clear about the steps you took to make your changes.
 * **It’s best to test.** Run your changes against any existing tests if they exist and create new ones when needed. Whether tests exist or not, make sure your changes don’t break the existing project.
 * **Include screenshots** of the before and after if your changes include differences in HTML/CSS. Drag and drop the images into the body of your pull request.
-* Contribute in the style of the project** to the best of your abilities. This may mean using indents, semi colons or comments differently than you would in your own repository, but makes it easier for the maintainer to merge, others to understand and maintain in the future.
+* **Contribute in the style of the project** to the best of your abilities. This may mean using indents, semi colons or comments differently than you would in your own repository, but makes it easier for the maintainer to merge, others to understand and maintain in the future.
