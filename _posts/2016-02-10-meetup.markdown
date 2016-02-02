@@ -2,7 +2,7 @@
 layout: meetup
 title:  "Defensive Programming and Debugging in R"
 date:   2016-02-10
-type: announcement
+type: meetup
 ---
 
 Please join us for the February 2016 installment of our monthly meetup series!
