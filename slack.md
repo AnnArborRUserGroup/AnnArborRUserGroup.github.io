@@ -12,4 +12,4 @@ Notifications are highly configurable—so you can make sure you see the importa
 
 <!-- Google Form script is based on `SlackAutoInvite.js` from Sergei Vorobev (https://gist.github.com/vors/bd585fc6e3d027804f80) -->
 
-<iframe src="https://docs.google.com/forms/d/11_8hwAEJqtRkeZX-R-RdMcAaVXbwFhfwCTmhtdSfFpQ/viewform?embedded=true" width="450" height="300" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+<iframe src="https://docs.google.com/forms/d/11_8hwAEJqtRkeZX-R-RdMcAaVXbwFhfwCTmhtdSfFpQ/viewform?embedded=true" width="450" height="600" frameborder="0" marginheight="0" marginwidth="0" scrolling="no">Loading...</iframe>
