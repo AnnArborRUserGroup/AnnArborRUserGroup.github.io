@@ -1,7 +1,7 @@
 ---
 layout: meetup
 title:  "Defensive Programming and Debugging in R"
-date:   2016-02-10
+date:
 type: meetup
 ---
 
@@ -11,14 +11,14 @@ This month's meetup will be hosted at Ann Arbor SPARK (big thanks to Travis Lind
 
 We'll have two short talks, one on web scraping and the other on deep learning, followed by a longer presentation on programming and debugging; see the [Meetup page](http://www.meetup.com/Ann-Arbor-R-User-Group/events/228436525/) for details!
 
-<!-- The Februrary meetup was hosted at Ann Arbor SPARK (big thanks to Travis Linderman!). There two lightning talks, one on web scraping and the other on deep learning, followed by a longer presentation on programming and debugging.
+<!-- The Februrary meetup was hosted at Ann Arbor SPARK (big thanks to Travis Linderman!); check out the [announcement slides](https://cdn.rawgit.com/AnnArborRUserGroup/Presentations/master/2016-02/announcements.html) for the latest group updates. There two lightning talks, one on web scraping and the other on deep learning, followed by a longer presentation on programming and debugging.
 
 The lightning talks were:
 
-* "Scraping Web Content Using rvest" presented by Jeff Shane, and
+* "Scraping Web Content Using rvest" ([slides](https://cdn.rawgit.com/AnnArborRUserGroup/Presentations/master/2016-02/)) presented by Jeff Shane, and
 
-* "Deep Learning with H20" presented by Brandon Stange
+* "Deep Learning with H20" ([slides](https://cdn.rawgit.com/AnnArborRUserGroup/Presentations/master/2016-02/)) presented by Brandon Stange
 
-For our main presentation Reino Bruner gave a talk on Defensive Programming and Debugging in R.
+For our main presentation Reino Bruner gave a talk on Defensive Programming and Debugging in R ([slides](https://cdn.rawgit.com/AnnArborRUserGroup/Presentations/master/2016-02/)).
 
-Reino Bruner is an R statistical programmer and data scientist with a background in experimental psychology, physics, and statistics. He has experience in many domains including, but not limited to: experimental design, assessment design & validation, statistical modeling, machine learning, model automation, causal analysis, and critical thinking. His research experience and interests include Bayesian Hamiltonian Monte Carlo analysis, neuro-network deep learning, nonparametric and robust statistics, complex system simulations, machine learning, and forecasting. -->
+Reino Bruner is an R statistical programmer and data scientist with Equastat. His academic background is in experimental psychology, physics, and statistics. He has experience in many domains including, but not limited to: experimental design, assessment design & validation, statistical modeling, machine learning, model automation, causal analysis, and critical thinking. His research experience and interests include Bayesian Hamiltonian Monte Carlo analysis, neuro-network deep learning, nonparametric and robust statistics, complex system simulations, machine learning, and forecasting. -->
