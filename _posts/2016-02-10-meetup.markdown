@@ -1,7 +1,7 @@
 ---
 layout: meetup
 title:  "Defensive Programming and Debugging in R"
-date:
+date: 2016-02-10
 type: meetup
 ---
 

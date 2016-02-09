@@ -16,15 +16,20 @@ layout: default
         {% endif %}
 
         <h2>
-          <span class="post-title" href="{{ post.meetup }}">{{ post.title }}</span>
+          <span class="post-title-news" href="{{ post.meetup }}">{{ post.title }}</span>
         </h2>
 
         <span class="post-description">{{ post.content}}</span>
 
         {% if post.type == 'meetup' %}
-          <div align="right">
+          <div align="right" class=>
             <a class="meetup-link" href="{{ post.meetup }}">Go to the meetup page</a>
           </div>
+
+<!--           <div class="container">
+            <a type="button" class="btn btn-primary btn-lg" href="{{ post.meetup }}" align="right" role="button">Go to the Meetup page</a>
+          </div> -->
+
         {% else %}
         {% endif %}
 

@@ -278,7 +278,17 @@
 }
 
 .post-title {
-    font-size: 24px;
+    font-size: 40px;
+    letter-spacing: -1px;
+    line-height: 1;
+
+    @include media-query($on-laptop) {
+        font-size: 36px;
+    }
+}
+
+.post-title-news {
+    font-size: 28px;
     letter-spacing: -1px;
     line-height: 1;
 
