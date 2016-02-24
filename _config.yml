@@ -10,4 +10,4 @@ twitter_username: annarborrusers
 
 # Build settings
 markdown: kramdown
-highlighter: pygments
+highlighter: rogue
