@@ -1,0 +1,13 @@
+---
+layout: meetup
+title:  "Docker+R and Outlier and Change Point Detection"
+date: 2016-03-10
+type: meetup
+meetup: http://www.meetup.com/Ann-Arbor-R-User-Group/events/229242634/
+---
+
+The Februrary meetup was hosted at Ann Arbor SPARK ([annoucement slides](https://cdn.rawgit.com/AnnArborRUserGroup/Presentations/master/2016-03/announcements/announcements.html)). Kraig Stevenson gave a lightning talk on outlier and change point detection using Twitter's R packages AnomalyDetection and BreakoutDetection ([slides](https://cdn.rawgit.com/AnnArborRUserGroup/Presentations/master/2016-03/kraig-lightning-talk/anoms-breaks.html)) and Blake Nicholson gave a presentation on using R with Docker, a standard interface for creation, distribution and deployment of software ([slides](https://cdn.rawgit.com/AnnArborRUserGroup/Presentations/master/2016-03/blake-docker-and-R/docker-and-R.html)).
+
+Docker has taken the software engineering world by storm. It provides a lightweight, isolated environment in which programs can be run. It has broad applications across all aspects of software engineering. In this talk, Blake provided background on Docker, its architecture, and how to use it. He went through several examples of using R within a Docker container and the advantages such a setup provides.
+
+Blake Nicholson leads the Data Science and Software Engineering teams at Seelio. He has applied quantitative methods and software development in numerous business settings throughout his career. His experience ranges from optimizing the size and structure of sales teams to leveraging analytical methods to find, grow, and keep employees at Facebook.
