@@ -1,0 +1,13 @@
+---
+layout: meetup
+title:  "Super Learner"
+date: 2016-04-14
+type: meetup
+meetup: http://www.meetup.com/Ann-Arbor-R-User-Group/events/229942715/
+---
+
+The April meetup was hosted at Ann Arbor SPARK ([annoucement slides](https://cdn.rawgit.com/AnnArborRUserGroup/Presentations/master/2016-04/announcements/announcements.html)). Scott Grey gave a brief introduction to SuperLearner package, an ensemble prediction algorithm developed by Eric Polley at the National Cancer Institute. SuperLearner allows the use many algorithms to generate an ideal prediction function that is a weighted average of all the algorithms considered. The SuperLearner package permits the integration of dozens of prespecified potential algorithms found in other R packages as well as 'wrappers' that provide the user with the ability to include their own algorithms ([slides](https://cdn.rawgit.com/AnnArborRUserGroup/Presentations/master/2016-04/Super-Learner-Presentation/Superlearner.html)).
+
+Scott Grey is a senior statistician in the University of Michigan's Division of Cardiology where he analyzes data from registries of percutaneous interventions. He received his Masters and PhD from Case Western Reserve University.
+
+This presentation is an "informal part two" to another presentation from Scott, [Integrating machine learning into causal inference: the Targeted Maximum Likelihood Estimation approach](https://cdn.rawgit.com/AnnArborRUserGroup/Presentations/master/2016-04/Super-Learner-Presentation/TMLE.html) offered by the [Ann Arbor ASA Chapter](http://www.meetup.com/Ann-Arbor-Chapter-of-the-American-Statistical-Association/events/227254819/) on Tuesday, April 12.
