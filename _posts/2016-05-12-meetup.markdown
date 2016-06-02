@@ -1,0 +1,8 @@
+---
+layout: meetup
+title:  "Social"
+date:   2016-05-12
+type: meetup
+---
+
+Our May meetup was a social meetup — there were no presentations this month, just a chance to hang out and have fun.
