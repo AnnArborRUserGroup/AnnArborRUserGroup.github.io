@@ -11,8 +11,10 @@ layout: default
       <li>
         {% if post.author != nil %}
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }} – {{ post.author }}</span>
+        {% elsif post.type == 'announcement' %}
+        <span class="post-meta">{{ post.true_date | date: "%b %-d, %Y" }}</span>
         {% else %}
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <span class="post-meta>">{{ post.date | date: "%b %-d, %Y" }}</span>
         {% endif %}
 
         <h2>
