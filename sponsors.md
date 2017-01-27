@@ -6,26 +6,18 @@ permalink: /sponsors/
 
 ## Our sponsors
 
-#### Revolution Analytics (Microsoft)
+#### R Consortium
 
-<img height="50px" src="/images/sponsors/revolutionanalytics.png">
+<img height="50px" src="/images/sponsors/RConsortium_Horizontal_Pantone.png">
 
-Revolution Analytics is a commercial provider of R (Revolution R Open and Revolution R Enterprise) and has been the major source of funding for the Ann Arbor R User Group, covering the costs of using Meetup.com.
+The R Consortium, Inc. is a group organized under an open source governance and foundation model to provide support to the R community, the R Foundation and groups and individuals, using, maintaining and distributing R software.
 
-#### SPARK Ann Arbor
+The RC RUGS program provides financial support for R User Groups based on their size and the frequency with which they meet.
+
+#### Ann Arbor SPARK
 
 <img height="50px" src="/images/sponsors/spark.png">
 
-SPARK Ann Arbor hosted our Februrary 2016 Meetup and provided food and drink.
+Ann Arbor SPARK is Ann Arbor’s engine for economic development.
 
-#### Methods
-
-<img height="50px" src="/images/sponsors/methods.png">
-
-[Methods](http://www.methodsconsultants.com) is an Ypsilanti-based data science and statistical consulting firm. Methods sponsored our January 2016 Meetup, providing food and drink.
-
-#### Barracuda Networks
-
-<img height="50px" src="/images/sponsors/barracuda.jpeg">
-
-Barracuda Networks has provided meeting space for many of our meetups in 2015.
+Ann Arbor SPARK regularly hosts our monthly meetups and provides food and drink.
